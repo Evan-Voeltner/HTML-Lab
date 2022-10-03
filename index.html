@@ -269,7 +269,7 @@
                     That means there can never be another element on the same .html page that also has an id with the value of "Earl".
                 </p>
                 
-                <div>
+                <div id="target">
                     <p>
                         This block of text is enclosed by a &lt;div&gt; element. Divs typically don't have a visual element that can be identified in the browser, so they are often used to create "divisions" in a webpage. We will do more with divs later, but for now, give this div an attribute with the name <b>id</b> and the value <b>"target"</b>. We will shortly be using this id as the target of a hyperlink.
                     </p>
@@ -280,7 +280,7 @@
             <br>
 
             <section>
-                <p>Section 4 - Hyperlinks and Formatting</p>
+                <h2>Section 4 - Hyperlinks and Formatting</h2>
 
 
 
@@ -322,9 +322,9 @@
                     Also take note of the grey lines to the left of the screen in VS Code. When formatted correctly, these grey lines will show the "scope" of a single tag, connecting the opening tag to the closing tag. Additionally, there should be empty space with no line between the closing of one tag and the opening of a "sibling" tag on the same level.
                 </p>
 
-        <p>
+                <p>
                     This paragraph's &lt;p&gt; tags are not aligned correctly. Notice how its tags looks different from the other paragraphs surrounding it. Fix the opening and closing tag here so that this paragraph is formatted seemlessly with its siblings!
-                        </p>
+                </p>
                                     
                 <p>
                     The following section is using many &lt;br&gt; tags to create some buffer space.
@@ -436,6 +436,9 @@
                 <p>
                     Now, create your own link below that will take you back up to the div that you gave the id of "target".
                 </p>
+
+                <p><a href="#target">Hey Target.</a></p>
+
 
             </section>
 
